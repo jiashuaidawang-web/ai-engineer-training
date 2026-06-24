@@ -11,7 +11,7 @@ AutoGen 多智能体客服系统 - 主入口
 - 详细的Agent交互过程显示
 
 使用方法:
-    python main.py --query "我的订单ORD001为什么还没发货？"  # 单次查询
+    python LocalQwen3.py --query "我的订单ORD001为什么还没发货？"  # 单次查询
 """
 
 import sys
@@ -239,5 +239,5 @@ def main():
     return asyncio.run(main_async())
 
 if __name__ == "__main__":
-    # 运行方法：python main.py --query  "我的订单ORD001为什么还没发货？"
+    # 运行方法：python LocalQwen3.py --query  "我的订单ORD001为什么还没发货？"
     sys.exit(main())

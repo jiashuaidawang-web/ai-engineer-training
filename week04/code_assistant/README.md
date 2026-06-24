@@ -128,7 +128,7 @@ pip install -r requirements.txt
 ## 运行演示
 
 ```bash
-python main.py
+python LocalQwen3.py
 ```
 
 ## 核心修复

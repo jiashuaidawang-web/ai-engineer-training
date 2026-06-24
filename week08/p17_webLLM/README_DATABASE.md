@@ -88,7 +88,7 @@ python start_all.py
 #### 方式二：分别启动
 ```bash
 # 终端1：启动API服务器
-python main.py
+python LocalQwen3.py
 
 # 终端2：启动Gradio界面
 python gradio_app.py

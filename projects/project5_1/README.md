@@ -35,7 +35,7 @@
 运行主程序启动助手:
 
 ```bash
-python main.py
+python LocalQwen3.py
 ```
 
 按照终端提示输入课程主题和要求即可。

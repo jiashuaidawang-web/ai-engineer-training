@@ -61,7 +61,7 @@ def main():
     logger.info("开始启动LangGraph AI对话系统...")
     
     # 检查必要文件是否存在
-    required_files = ["main.py", "gradio_app.py", "config.py", "database.py", "workflow.py"]
+    required_files = ["LocalQwen3.py", "gradio_app.py", "config.py", "database.py", "workflow.py"]
     for file in required_files:
         if not Path(file).exists():
             logger.error(f"缺少必要文件: {file}")

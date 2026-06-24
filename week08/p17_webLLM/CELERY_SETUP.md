@@ -46,7 +46,7 @@ start_services.bat
 
 3. **启动 FastAPI 应用**
 ```bash
-python main.py
+python LocalQwen3.py
 ```
 
 ### 方式三: 使用 Python 脚本

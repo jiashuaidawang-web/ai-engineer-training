@@ -361,7 +361,7 @@ class EnvironmentSetup:
         if passed_checks == total_checks:
             print("\n🎉 环境设置完成！系统已准备就绪。")
             print("\n🚀 现在可以运行:")
-            print("    python main.py --mode cli")
+            print("    python LocalQwen3.py --mode cli")
             print("    python scripts/demo_scenarios.py")
         elif passed_checks >= total_checks * 0.7:
             print("\n⚠️  环境基本就绪，但有一些可选功能可能无法使用。")

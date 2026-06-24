@@ -1,3 +1,16 @@
+import ssl
+# 核心补丁：强行让 Python 略过 Windows 证书存储区的扫描，直接闭眼通过
+ssl.SSLContext.load_default_certs = lambda self, purpose=None: None
+
+# ================= 以下是你原本的正常代码 =================
+# 导入依赖 - 构建多模态RAG系统的核心组件
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+import gradio as gr
+import os
+from html_string import main_html, plain_html
+# ...（后面保持不变）
+
 # 导入依赖 - 构建多模态RAG系统的核心组件
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse

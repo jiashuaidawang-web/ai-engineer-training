@@ -30,7 +30,7 @@ def main():
         print("\n现在可以启动应用程序：")
         print("  python start_all.py  # 一键启动")
         print("  或")
-        print("  python main.py       # 仅启动API")
+        print("  python LocalQwen3.py       # 仅启动API")
         print("  python gradio_app.py # 仅启动Web界面")
         
     except Exception as e:
