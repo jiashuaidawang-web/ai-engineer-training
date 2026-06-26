@@ -5,7 +5,7 @@ from pymilvus import MilvusClient  # 👈 引入最新的客户端类
 # ==========================================
 # 1. 配置参数
 # ==========================================
-OLLAMA_PUBLIC_URL = "http://427ea2ed.r23.cpolar.top/v1"  # 你的 Ollama 穿透链接
+OLLAMA_PUBLIC_URL = "http://427ea2ed.r23.cpolar.top"  # 你的 Ollama 穿透链接
 MILVUS_PUBLIC_HOST = "6.tcp.cpolar.cn"
 MILVUS_PUBLIC_PORT = 12778
 COLLECTION_NAME = "green_horse"  # 确保你在 Milvus 里的表名和这个一致
